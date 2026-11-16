@@ -1,0 +1,17 @@
+# GEO 원본 파일 (노트북이 직접 받음)
+geo_raw/
+*.tar
+*.dcc.gz
+*.pkc.gz
+*_series_matrix.txt.gz
+
+# 큰 중간 파일
+*.csv.gz
+
+# 파이썬 / 주피터
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# 기타
+.DS_Store
